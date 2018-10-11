@@ -1,0 +1,71 @@
+header {
+    background-color: red;
+    font-size: 20px;
+     font-style: arial;
+     display: block;
+     padding: 30px;
+     position: static;
+     width: 100%;
+     box-sizing: border-box;
+     color: white;
+}
+
+h1 {
+ margin: 0;
+ padding: 30px;
+ font-size: 50px;
+ font-family: Arial;
+ letter-spacing: 2px;
+}
+
+.links {
+    text-decoration: solid;
+    color:blue ;
+    margin-left: 60px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+		background-color: green;
+}
+
+
+.flex-container>div {
+    display: flex;
+    min-width: 150px;
+    min-height: 50px;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+
+
+}
+
+
+img {
+	width: 100%;
+ height: 100%;
+ }
+
+
+
+@media screen and (max-width: 700px) {
+      .title {
+          display: flex;
+          justify-content: center;
+      }
+
+      .links {
+          display: none;
+      }
+  }
